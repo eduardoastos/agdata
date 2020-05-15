@@ -1,0 +1,350 @@
+@keyframes icones-sociais{
+    from{
+        left: -60px
+    }
+    to{
+        opacity: 1;
+        left: 0;
+    }
+}
+
+@keyframes text1{
+    from{
+        opacity: 0;
+        top: 50px;
+    }
+    to{
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+@keyframes text2{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes button1{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes title1{
+    from{
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes logo-agdata{
+    0%{
+        left: -60px
+    }
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}
+
+@keyframes mouse-icon{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes links-desk{
+    from{
+        left: -60px
+    }
+    to{
+        opacity: 1;
+        left: 0;
+    }
+}
+
+@keyframes imagemsegundasecao {
+    from{
+        opacity: 0;
+        left: -800px;
+    }
+    to{
+        opacity: 1;
+        left: 0;
+    }
+}
+
+@keyframes box1-terceira {
+    from{
+        opacity: 0;
+        left: -400px;
+    }
+    to{
+        opacity: 1;
+        left: 0;
+    }
+}
+@keyframes box2-terceira {
+    from{
+        opacity: 0;
+        left: -250px;
+    }
+    to{
+        opacity: 1;
+        left: 0;
+    }
+}
+@keyframes box3-terceira {
+    from{
+        opacity: 0;
+        left: -100px;
+    }
+    to{
+        opacity: 1;
+        left: 0;
+    }
+}
+@keyframes scrollupanddown {
+    from{
+        top: 91%;
+    }
+    to{
+        top: 93%;
+    }
+}
+
+@keyframes arrow-up {
+    from{
+        top: 92%;
+    }
+    to{
+        top: 94%;
+    }
+}
+@keyframes arrow-up-responsive {
+    from{
+        top: 90%;
+    }
+    to{
+        top: 92%;
+    }
+}
+
+@keyframes menu-scroll {
+    from{
+        opacity: 0;
+        right: -3%;
+    }
+    to{
+        opacity: 1;
+        right: 0;
+    }
+}
+
+// -------
+@keyframes sobresegundasecao {
+    from{
+        opacity: 0;
+        top: -5%;
+    }
+    to{
+        opacity: 1;
+        top: 0%;
+    }
+}
+@keyframes div1segundasection {
+    from{
+        opacity: 0;
+        top: 50px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+@keyframes div2segundasection {
+    from{
+        opacity: 0;
+        top: 50px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+@keyframes div3segundasection {
+    from{
+        opacity: 0;
+        top: 50px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+@keyframes div4segundasection {
+    from{
+        opacity: 0;
+        top: 50px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+
+
+@keyframes tituloquartasecao {
+    from{
+        opacity: 0;
+        top: -50px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+
+@keyframes imagemquartasecao {
+    from{
+        opacity: 0;
+        left: -100px;
+    }
+    to{
+        opacity: 1;
+        left: 0;
+    }
+}
+
+@keyframes titulosecaovideo{
+    from{
+        // transform: scale(1.05);
+        opacity: 0;
+    }
+    to{
+        // transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes h3secaovideo{
+    from{
+        opacity: 0;
+        top: -50px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+@keyframes h3secaovideo-responsive{
+    from{
+        opacity: 0;
+        top: -50px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+@keyframes buttonsecaovideo{
+    from{
+        opacity: 0;
+        top: 50px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+@keyframes imgplayanimation{
+    from{
+        opacity: 0;
+        left: 35%;
+    }
+    to{
+        opacity: 1;
+        left: 50%;
+    }
+}
+@keyframes imgplayanimation-mobile{
+    from{
+        opacity: 0;
+        left: -35%;
+    }
+    to{
+        opacity: 1;
+        left: 0;
+    }
+}
+@keyframes textonoursection {
+    from{
+        opacity: 0;
+        top: 50px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+@keyframes titleonoursection {
+    from{
+        opacity: 0;
+        top: -50px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
+}
+@keyframes subtitleonoursection {
+    from{
+        opacity: 0;
+        transform: scale(0.8);
+        top: -50px;
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        top: 0;
+    }
+}
+@keyframes imageonoursection {
+    from{
+        opacity: 0;   
+        // transform: translate(0,50%);
+        bottom: -50px;
+    }
+    to{
+        opacity: 1;
+        // transform: translate(-50%,0);
+        bottom: 0;
+    }
+}
+
+
+// Mobile
+
+// @keyframes imageonaboutsection {
+//     from{
+//         opacity: 0;   
+//         left: -100px;
+//     }
+//     to{
+//         opacity: 1;
+//         left: 0;
+//     }
+// }

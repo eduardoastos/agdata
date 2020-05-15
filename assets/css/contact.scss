@@ -1,0 +1,306 @@
+.contact{
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    @media (max-width: 767px){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }    
+}
+.h1-decima-sessao{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 0 10%;
+    font-size: 33px;
+    margin: 0;
+    line-height: 28px;
+    padding-top: 50px;
+    margin-bottom: 22px;
+    font-weight: bold;
+    @media (max-width: 375px) and (min-width: 361px) {
+        margin-bottom: 0;
+    }
+    @media (max-width: 1920px) and (min-width: 768px) {
+        display: none;
+    }
+    @media (max-width: 500px) and (min-width: 414px) {
+        font-size: 45px;
+        padding-top: 50px;
+    }
+}
+.p-decima-sessao{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 54px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+    margin-bottom: 10px;
+    @media (max-width: 360px) and (min-width: 320px) {
+        margin-bottom: 25px;
+    }
+    @media (max-width: 767px) and (min-width: 414px) {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    @media (max-width: 1920px) and (min-width: 768px) {
+        display: none;
+    }
+    @media (max-width: 500px) and (min-width: 417px) {
+        padding: 0 18.5%;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        margin-top: 38px;
+        margin-bottom: 20px;
+    }
+}
+.form-control{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+    @media (max-width: 360px) and (min-width: 320px) {
+        height: 30px;
+    }
+    @media (max-width: 500px) and (min-width: 417px) {
+        height: 45px;
+    }
+}
+.form-margin{
+    margin-bottom: 20px;
+    @media (max-width: 360px) and (min-width: 320px) {
+        margin-bottom: 10px;
+    }
+}
+.btn-default{
+    background-color: #f7aa2e;
+    color: #fff;
+    border: none;
+}
+.btn-default:hover{
+    background-color: #f19400;
+    color: #fff;
+    border: none;
+}
+.btn-default:focus{
+    background-color: #f19400;
+    color: #fff;
+    border: none;
+    outline-style: none;
+}
+
+.btn-formulario{
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    @media (max-width: 360px) and (min-width: 320px) {
+    height: 34px;    
+    }
+}
+
+
+#InputEmail::-webkit-input-placeholder {
+    color: #fff;
+ }
+ 
+#InputEmail:-moz-placeholder {
+    color: #fff;
+ }
+ 
+#InputEmail::-moz-placeholder {
+    color: #fff;  
+ }
+ 
+#InputEmail:-ms-input-placeholder {  
+    color: #fff;  
+ }
+#InputPassword::-webkit-input-placeholder {
+    color: #fff;
+ }
+ #InputPassword:-moz-placeholder {
+    color: #fff;
+ }
+ 
+#InputPassword::-moz-placeholder {
+    color: #fff;  
+ }
+ 
+#InputPassword:-ms-input-placeholder {  
+    color: #fff;  
+ }
+ #InputPhone::-webkit-input-placeholder {
+    color: #fff;
+ }
+ #InputPhone:-moz-placeholder {
+    color: #fff;
+ }
+ 
+#InputPhone::-moz-placeholder {
+    color: #fff;  
+ }
+ 
+#InputPhone:-ms-input-placeholder {  
+    color: #fff;  
+ }
+
+ .form-control:focus{
+    border-color: #fff;
+ }
+
+ .mapa{
+    height: 178px;
+    padding-top: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    @media (max-width: 360px) and (min-width: 320px) {
+        height: 140px;
+        // margin-top: 10px;
+        // margin-bottom: 10px;
+    }
+    @media (max-width: 375px) and (min-width: 361px) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    @media (max-width: 500px) and (min-width: 417px) {
+        height: 290px;
+        // margin-top: 10px;
+        // margin-bottom: 10px;
+    }
+    @media (max-width: 1920px) and (min-width: 768px) {
+        display: none;
+    }
+ }
+ .mapa-interno{
+    margin: 0 auto; 
+    height: 100%;
+    width: 85%;
+    @media (max-width: 360px) and (min-width: 320px) {
+        width: 81%;
+    }
+    @media (max-width: 768px) and (min-width: 414px) {
+        width: 100%;
+    }
+ }
+ .by-blue{
+     color: #fff;
+     text-align: center;
+     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+        @media (max-width: 1920px) and (min-width: 768px) {
+            display: none;
+        }   
+ }
+
+//  Desktop
+
+.parceiros{
+    background-color: #080808;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.div-mapa-desk{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.mapa-desk{
+    border: 0;
+    width: 600px;
+    height: 450px;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        width: 725px;
+        height: 650px;
+    }
+}
+.h1-decima-sessao-desk{
+    color: #fff;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33px;
+    margin: 0;
+    line-height: 28px;
+    padding-top: 45px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (max-width: 1920px) and (min-width: 1368px) {
+        font-size: 42px;
+        padding-top: 75px;
+    }
+}
+.p-decima-sessao-desk{
+    color: #a9a7a7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 21px;
+    text-align: left;
+    padding-right: 50px;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (max-width: 1920px) and (min-width: 1368px) {
+        font-size: 26px;
+        line-height: 38px;
+        margin-bottom: 100px;
+    }
+
+}
+.height-form{
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (max-width: 1920px) and (min-width: 1368px) {
+        height: 50px;
+    }
+}
+.parceiros-col-1{
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.parceiros-col-2{
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.form-responsive{
+    @media (max-width: 1920px) and (min-width: 768px) {
+        display: none;
+    }
+}
+.bold-button{
+    font-weight: bold;
+}
+
+

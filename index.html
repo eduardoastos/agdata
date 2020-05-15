@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AGData</title>
+    <link rel="shortcut icon" href="assets/img/fav.png">
+    <link rel="stylesheet" href="assets/css/site.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Menu de Navegação Mobile -->
+
+    <nav class="navigation-mobile">
+        <ul class="navigation-mobile__menu">
+            <div id="button-mobile-closed" class="menu-hamburguer-closed">
+                <div class="menu-hamburguer-closed__bar-rotate-less"></div>
+                <div class="menu-hamburguer-closed__bar-rotate-more"></div>
+            </div>
+            <div class="navigation-mobile__menu--links">
+                <li><img class="icon-on-menu" src="assets/img/icon-ag.png" alt=""><a data-section="#home-section">Home</a></li>
+                <li><img class="icon-on-menu" src="assets/img/icon-ag.png" alt=""><a data-section="#about-section">Agencia</a></li>
+                <li><img class="icon-on-menu-interno" src="assets/img/icon-ag.png" alt=""><a data-section="#design-section">Experiência</a></li>
+                <li><img class="icon-on-menu-interno" src="assets/img/icon-ag.png" alt=""><a data-section="#experience-section">Estatísticas</a></li>
+                <li><img class="icon-on-menu" src="assets/img/video-camera.png" alt=""><a data-section="#video-section">Video</a></li>
+                <li><img class="icon-on-menu" src="assets/img/light-bulb.png" alt=""><a data-section="#our-section">Serviços</a></li>
+                <li><img class="icon-on-menu-interno" src="assets/img/light-bulb.png" alt=""><a data-section="#services-section">Nossos
+                        Serviços
+                    </a></li>
+                <li><img class="icon-on-menu" src="assets/img/light-bulb.png" alt=""><a data-section="#testimonials-section">Testemunhos</a></li>
+                <li><img class="icon-on-menu" src="assets/img/settings-work-tool.png" alt=""><a data-section="#technology-section">Tecnologia</a></li>
+                <li><img class="icon-on-menu" src="assets/img/black-bubble-speech.png" alt=""><a data-section="#contact-section">Contato</a></li>
+            </div>
+            <div>
+                <li class="navigation-mobile__menu--address">
+                    <p>Praça Dr. Adhemar de Almeida Prado, n 40.<br /> <span class="navigation-mobile__menu--address__tel">(11)
+                            9 3258 - 5842</span></p>
+                </li>
+                <li class="navigation-mobile__menu--social-network">
+                    <a class="icons" href="https://www.facebook.com/agenciadata/" target="_blank"><img class="facebook-menu"
+                            src="assets/img/facebook-logo.png" alt="Facebook"></a>
+                    <a class="icons" href="https://www.instagram.com/agenciadata/" target="_blank"><img src="assets/img/instagram-logo.png"
+                            alt="Instagram"></a>
+                    <a class="icons" href="https://www.youtube.com/channel/UCHJDScKcn9wQbwIbX1LjvFQ?view_as=subscriber"
+                        target="_blank"><img src="assets/img/youtube-logo.png" alt="Youtube"></a>
+                    <a class="icons" href="https://www.linkedin.com/company/agenciadata/" target="_blank"><img src="assets/img/linkedin-logo.png"
+                            alt="LinkedIn"></a>
+                    <a class="icons" href="https://twitter.com/AgenciaData" target="_blank"><img src="assets/img/twitter.png"
+                            alt="Twitter"></a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <!-- Botões de abertura do Menu Mobile -->
+
+    <div id="button-mobile" class="menu-hamburguer">
+        <div class="menu-hamburguer__menu-bar"></div>
+        <div class="menu-hamburguer__menu-bar-margin"></div>
+        <div class="menu-hamburguer__menu-bar-margin"></div>
+        <div class="menu-hamburguer__menu-bar-margin"></div>
+    </div>
+
+    <!-- Menu de Navegação Desktop -->
+
+    <nav class="navigation-desktop">
+        <img id="m-logo-mobile" class="navigation-desktop__logo-mobile" src="assets/img/logo-definitiva.png" alt="Agência Data">
+
+        <img id="m-logo-desktop" class="navigation-desktop__logo-desktop col-sm-2 col-md-2 col-lg-2" src="assets/img/logo-definitiva.png"
+            alt="Agência Data">
+        <div class="navigation-desktop__links col-sm-5 col-sm-offset-4  col-md-5 col-md-offset-4 col-lg-5 col-lg-offset-4">
+            <div id="m-agency" class="navigation-desktop__links--agency">
+                <p data-section="#about-section" class="navigation-desktop__links--link">Agency</p>
+                <img class="navigation-desktop__links--icon" src="assets/img/iconemenu_lateral.png" alt="">
+            </div>
+            <div id="m-video" class="navigation-desktop__links--video">
+                <p data-section="#video-section" class="navigation-desktop__links--link">Video</p>
+                <img class="navigation-desktop__links--icon" src="assets/img/iconemenu_lateral.png" alt="">
+            </div>
+            <div id="m-services" class="navigation-desktop__links--services">
+                <p data-section="#services-section" class="navigation-desktop__links--link">Services</p>
+                <img class="navigation-desktop__links--icon" src="assets/img/iconemenu_lateral.png" alt="">
+            </div>
+            <div id="m-technology" class="navigation-desktop__links--technology">
+                <p data-section="#technology-section" class="navigation-desktop__links--link">Technology</p>
+                <img class="navigation-desktop__links--icon" src="assets/img/iconemenu_lateral.png" alt="">
+            </div>
+            <button id="m-contact" data-section="#contact-section" class="navigation-desktop__links--contact-button">contact</button>
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1 navigation-desktop__shop">
+            <img id="m-icon-shop" class="navigation-desktop__shop--img" src="assets/img/icon_shop_header.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Seção Home -->
+
+    <section data-section-name="home-section" class="sessao home">
+
+        <div class="home__desktop">
+            <p class="m-paragraph-home home__desktop--paragraph">agência data</p>
+            <h1 id="m-title-home-desktop" class="home__desktop--title">Nós chegamos para fazer diferente.</h1>
+            <button class="m-button-desktop home__desktop--button" data-section="#about-section">conheça</button>
+        </div>
+
+        <div class="home__mouse-icon">
+            <img src="assets/img/mouse_icon.png" alt="">
+        </div>
+
+        <div class="home__mobile">
+            <p class="m-paragraph-home-mobile home__mobile--paragraph">agência data</p>
+            <h1 id="m-title-home-mobile" class="home__mobile--title">Nós chegamos para fazer diferente.</h1>
+            <button class="m-button-mobile home__mobile--button" data-section="#about-section">conheça</button>
+        </div>
+
+        <div class="home__social-network-desktop">
+            <a class="m-facebook facebook" href="https://www.facebook.com/agenciadata/" target="_blank"></a>
+            <a class="m-instagram instagram" href="https://www.instagram.com/agenciadata/" target="_blank"></a>
+            <a class="m-youtube youtube" href="https://www.youtube.com/channel/UCHJDScKcn9wQbwIbX1LjvFQ?view_as=subscriber"
+                target="_blank"></a>
+            <a class="m-linkedin linkedin" href="https://www.linkedin.com/company/agenciadata/" target="_blank"></a>
+            <a class="m-twitter twitter" href="https://twitter.com/AgenciaData" target="_blank"></a>
+        </div>
+
+        <div class="home__social-network-mobile">
+            <a class="m-facebook facebook" href="https://www.facebook.com/agenciadata/" target="_blank"></a>
+            <a class="m-instagram instagram" href="https://www.instagram.com/agenciadata/" target="_blank"></a>
+            <a class="m-youtube youtube" href="https://www.youtube.com/channel/UCHJDScKcn9wQbwIbX1LjvFQ?view_as=subscriber"
+                target="_blank"></a>
+            <a class="m-linkedin linkedin" href="https://www.linkedin.com/company/agenciadata/" target="_blank"></a>
+            <a class="m-twitter twitter" href="https://twitter.com/AgenciaData" target="_blank"></a>
+        </div>
+
+        <div id="arrow-to-top" data-section="#home-section" class="disabled">
+            <img src="assets/img/arrow-up.png" alt="">
+        </div>
+
+    </section>
+
+    <!-- Seção About -->
+
+    <section data-section-name="about-section" class="sessao about">
+
+        <!-- Mobile -->
+
+        <img id="control-image-about-mobile" class="img-responsive disabled" src="assets/img/About-the-agency-mobile.jpg"
+            alt="">
+
+        <!-- Mobile and Desktop -->
+        <img id="control-image-about-desktop" class="img-responsive disabled col-sm-4 col-md-4 col-lg-4" src="assets/img/About-the-agency.png"
+            alt="">
+
+        <div id="control-content-about" class="container disabled col-sm-8 col-md-8 col-lg-8">
+            <h1 class="about__top-text--title">um novo jeito de ser agência</h1>
+            <p class="about__top-text--paragraph">Nós acreditamos que o primeiro passo é ouvir e entender os seus
+                problemas.
+                O próximo passo é elaborar a solução, seja com os nossos recursos prontos ou com novos.</p>
+            <p class="about__top-text--paragraph-strong">Nunca falamos que não é possível antes de tentar.</p>
+        </div>
+
+        <!-- Mobile -->
+
+        <div class="about-div-mobile">
+            <div id="control-about-div-intern-one" class="container mobile-medium disabled">
+                <img src="assets/img/Diamond_Yellow.png" alt="">
+                <h2 class="about-mobile__div-intern--title">Nunca dizemos não</h2>
+                <p class="about-mobile__div-intern--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla
+                    scelerisque.
+                </p>
+            </div>
+            <div id="control-about-div-intern-two" class="container mobile-medium disabled">
+                <img src="assets/img/Diamond_Yellow.png" alt="">
+                <h2 class="about-mobile__div-intern--title">Nunca dizemos não</h2>
+                <p class="about-mobile__div-intern--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla
+                    scelerisque.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="mobile-about" style="">
+            <div class="mobile-large">
+                <div id="control-div-one-mobile" class="container disabled">
+                    <img src="assets/img/Diamond_Yellow.png" alt="">
+                    <h2 class="about-mobile__div-intern--title">Nunca dizemos não</h2>
+                    <p class="about-mobile__div-intern--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.
+                        Nulla scelerisque.
+                    </p>
+                </div>
+                <div id="control-div-two-mobile" class="container disabled">
+                    <img src="assets/img/Diamond_Yellow.png" alt="">
+                    <h2 class="about-mobile__div-intern--title">Estamos a disposição</h2>
+                    <p class="about-mobile__div-intern--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.
+                        Nulla scelerisque.
+                    </p>
+                </div>
+            </div>
+            <div class="mobile-large">
+                <div id="control-div-three-mobile" class="container disabled">
+                    <img src="assets/img/Diamond_Yellow.png" alt="">
+                    <h2 class="about-mobile__div-intern--title">Sempre nos atualizamos</h2>
+                    <p class="about-mobile__div-intern--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.
+                        Nulla scelerisque.
+                    </p>
+                </div>
+                <div id="control-div-four-mobile" class="container disabled">
+                    <img src="assets/img/Diamond_Yellow.png" alt="">
+                    <h2 class="about-mobile__div-intern--title">Somos francos</h2>
+                    <p class="about-mobile__div-intern--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.
+                        Nulla scelerisque.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- DESKTOP -->
+
+        <div id="control-one-desk-div" class="disabled col-sm-4 col-md-4 col-lg-4">
+            <div>
+                <img src="assets/img/Diamond_Yellow.png" alt="">
+            </div>
+            <div class="about-desktop__div-one--text-intern">
+                <h2 class="about-desktop__div-one--text-intern__title">Nunca dizemos não</h2>
+                <p class="about-desktop__div-one--text-intern__paragraph">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing
+                    elit. Nulla scelerisque.</p>
+            </div>
+        </div>
+        <div id="control-two-desk-div" class="disabled col-sm-4 col-md-4 col-lg-4">
+            <div>
+                <img src="assets/img/Diamond_Yellow.png" alt="">
+            </div>
+            <div class="about-desktop__div-two--text-intern">
+                <h2 class="about-desktop__div-two--text-intern__title">Nunca dizemos não</h2>
+                <p class="about-desktop__div-two--text-intern__paragraph">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing
+                    elit. Nulla scelerisque.</p>
+            </div>
+        </div>
+        <div id="control-three-desk-div" class="disabled col-sm-4 col-md-4 col-lg-4">
+            <div>
+                <img src="assets/img/Diamond_Yellow.png" alt="">
+            </div>
+            <div class="about-desktop__div-three--text-intern">
+                <h2 class="about-desktop__div-three--text-intern__title">Nunca dizemos não</h2>
+                <p class="about-desktop__div-three--text-intern__paragraph">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing
+                    elit. Nulla scelerisque.</p>
+            </div>
+        </div>
+        <div id="control-four-desk-div" class="disabled col-sm-4 col-md-4 col-lg-4">
+            <div>
+                <img src="assets/img/Diamond_Yellow.png" alt="">
+            </div>
+            <div class="about-desktop__div-four--text-intern">
+                <h2 class="about-desktop__div-four--text-intern__title">Nunca dizemos não</h2>
+                <p class="about-desktop__div-four--text-intern__paragraph">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing
+                    elit. Nulla scelerisque.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seção Design -->
+
+
+    <section data-section-name="design-section" class="sessao design">
+
+        <!-- Mobile -->
+
+        <div>
+            <h3 class="design-mobile__title">Our Experience</h3>
+            <p class="design-mobile__paragraph">5 anos criando uma base sólida</p>
+        </div>
+
+        <div class="design-mobile__first-counter">
+            <h1 id="titulo-contador1" class="design-mobile__first-counter--title">0</h1>
+            <p class="design-mobile__first-counter--paragraph">de usuários cadastrados</p>
+        </div>
+        <div class="design-mobile__second-counter">
+            <div class="design-mobile__second-counter--intern">
+                <span class="design-mobile__second-counter--symbol">+</span>
+                <h1 id="titulo-contador2" class="design-mobile__second-counter--intern__title">0</h1>
+            </div>
+            <p class="design-mobile__second-counter--paragraph">de Estabelecimentos</p>
+        </div>
+        <div class="design-mobile__third-counter">
+            <h1 id="titulo-contador3" class="design-mobile__first-counter--title">0</h1>
+            <p class="design-mobile__third-counter--paragraph">acessos diários</p>
+        </div>
+
+
+        <!-- DESKTOP -->
+
+        <div class="design-desktop__extern-first">
+            <div class="controladorbox1 disabled col-sm-4 col-md-4 col-lg-4">
+                <h2 class="design-desktop__extern-first--box-one__title">Design moderno e rápido.</h2>
+                <p class="design-desktop__extern-first--box-one__paragraph">I am text block. Click edit button to
+                    change
+                    this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                    ullamcorper
+                </p>
+                <button class="design-desktop__extern-first--box-one__button">show more</button>
+            </div>
+            <div class="controladorbox2 design-desktop__extern-first--box-two col-sm-4 col-md-4 col-lg-4">
+                <h2 class="design-desktop__extern-first--box-one__title">Atendimento ágil e prático.</h2>
+                <p class="design-desktop__extern-first--box-one__paragraph">I am text block. Click edit button to
+                    change
+                    this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                    ullamcorper
+                </p>
+                <button class="design-desktop__extern-first--box-two__button">show more</button>
+            </div>
+            <div class="controladorbox3 design-desktop__extern-first--box-three col-sm-4 col-md-4 col-lg-4">
+                <h2 class="design-desktop__extern-first--box-three__title">Desenvolvimento experiente e inteligente.</h2>
+                <p class="design-desktop__extern-first--box-one__paragraph">I am text block. Click edit button to
+                    change
+                    this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                    ullamcorper
+                </p>
+                <button class="design-desktop__extern-first--box-three__button">show more</button>
+            </div>
+        </div>
+
+        <!-- REVER NOMENCLATURA -->
+        <div class="design-desktop__extern-second">
+            <div class="contador1-desktop col-sm-4 col-md-4 col-lg-4">
+                <h1 id="titulo-contador1-desk" class="design-mobile__first-counter--title">0</h1>
+                <p class="design-mobile__first-counter--paragraph">de usuários cadastrados</p>
+            </div>
+            <div class="contador2-desktop col-sm-4 col-md-4 col-lg-4">
+                <div class="design-mobile__second-counter--intern"><span class="design-mobile__second-counter--symbol">+</span>
+                    <h1 id="titulo-contador2-desk" class="design-mobile__second-counter--intern__title">0</h1>
+                </div>
+                <p class="design-mobile__second-counter--paragraph">de Estabelecimentos</p>
+            </div>
+            <div class="contador3-desktop col-sm-4 col-md-4 col-lg-4">
+                <h3 class="h3-design">Our Experience</h3>
+                <p class="p-design">5 anos criando uma base sólida</p>
+            </div>
+        </div>
+        <!-- FIM REVER -->
+    </section>
+
+
+    <section data-section-name="experience-section" class="sessao experience">
+
+        <!-- DESKTOP -->
+
+        <div class="quarta-sessao-desk col-sm-6 col-md-6 col-lg-6">
+            <h1 class="control-h1-section-4 titulo-quarta-sessao-desk">
+                Conheça melhor a nossa rede de estabelecimentos parceiros.
+            </h1>
+            <p class="control-p-section-4 p-quarta-sessao-desk">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet,
+                consectetur
+                adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor
+                sit.
+            </p>
+
+            <div class="descricao-barra1">
+                <p>restaurantes</p>
+                <p>90%</p>
+            </div>
+            <div class="progress progress-desk barra-personalizada1">
+                <div class="progress-bar bar1 cor-barra" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                    aria-valuemax="100">
+
+                </div>
+            </div>
+
+            <div class="descricao-barra1">
+                <p>salões e barbearias</p>
+                <p>77%</p>
+            </div>
+            <div class="progress progress-desk barra-personalizada1">
+                <div class="progress-bar bar2 cor-barra" role="progressbar" aria-valuenow="77" aria-valuemin="0"
+                    aria-valuemax="100">
+
+                </div>
+            </div>
+
+            <div class="descricao-barra1">
+                <p>academias</p>
+                <p>63%</p>
+            </div>
+            <div class="progress progress-desk barra-personalizada1">
+                <div class="progress-bar bar3 cor-barra" role="progressbar" aria-valuenow="63" aria-valuemin="0"
+                    aria-valuemax="100">
+
+                </div>
+            </div>
+
+            <div class="descricao-barra1">
+                <p>outros</p>
+                <p>45%</p>
+            </div>
+            <div class="progress progress-desk barra-personalizada1">
+                <div class="progress-bar bar4 cor-barra" role="progressbar" aria-valuenow="45" aria-valuemin="0"
+                    aria-valuemax="100">
+
+                </div>
+            </div>
+        </div>
+        <img class="col-sm-6 col-md-6 col-lg-6 img-responsive control-img-section-4 disabled" src="assets/img/img-quarta-sessao-desk.png"
+            alt="">
+
+        <!-- RESPONSIVE -->
+
+        <div class="quarta-sessao-responsiva">
+            <h1 id="control-titulo-sessao" class="disabled">
+                Conheça melhor a nossa rede de estabelecimentos parceiros.
+            </h1>
+            <p id="control-p-sessao" class="disabled">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur
+                adipiscing
+                elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit.</p>
+
+            <div>
+                <div class="descricao-barra1">
+                    <p>restaurantes</p>
+                    <p>90%</p>
+                </div>
+                <div class="progress barra-personalizada1">
+                    <div class="progress-bar bar1 cor-barra" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                        aria-valuemax="100">
+
+                    </div>
+                </div>
+
+                <div class="descricao-barra1">
+                    <p>salões e barbearias</p>
+                    <p>77%</p>
+                </div>
+                <div class="progress barra-personalizada1">
+                    <div class="progress-bar bar2 cor-barra" role="progressbar" aria-valuenow="77" aria-valuemin="0"
+                        aria-valuemax="100">
+
+                    </div>
+                </div>
+
+                <div class="descricao-barra1">
+                    <p>academias</p>
+                    <p>63%</p>
+                </div>
+                <div class="progress barra-personalizada1">
+                    <div class="progress-bar bar3 cor-barra" role="progressbar" aria-valuenow="63" aria-valuemin="0"
+                        aria-valuemax="100">
+
+                    </div>
+                </div>
+
+                <div class="descricao-barra1">
+                    <p>outros</p>
+                    <p>45%</p>
+                </div>
+                <div class="progress barra-personalizada1">
+                    <div class="progress-bar bar4 cor-barra" role="progressbar" aria-valuenow="45" aria-valuemin="0"
+                        aria-valuemax="100">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section data-section-name="video-section" class="sessao video">
+
+        <!-- RESPONSIVE -->
+
+        <div id="m_video-play" class="disabled">
+            <div class="close-video">
+                <span class="barra-one"></span>
+                <span class="barra-two"></span>
+            </div>
+            <video class="video-play-intern" src="assets/img/video.mp4" preload="metadata"></video>
+        </div>
+
+        <div id="m_quinta-sessao" class="quinta-sessao">
+            <div class="interna-quinta-sessao">
+                <img id="control-img-play-mobile" class="disabled" src="assets/img/play.png" alt="">
+                <h3 id="control-h3-quinta-sessao" class="disabled">business</h3>
+                <p id="control-p-quinta-sessao" class="disabled">Agência Data uma experiência totalmente nova.</p>
+                <button id="play_video" class="disabled">assistir</button>
+            </div>
+        </div>
+
+        <!-- DESKTOP -->
+
+        <div id="m_quinta-sessao-desktop" class="quinta-sessao-desk">
+            <div class="interna-quinta-sessao-desk col-sm-6 col-md-6 col-lg-6">
+                <img id="play_video-desktop" class="control-img-play" src="assets/img/play.png" alt="">
+            </div>
+            <div class="interna-quinta-sessao-desk-2  col-sm-6 col-md-6 col-lg-6">
+                <h3 class="control-h3-section-5">business</h3>
+                <p class="control-p-section-5">Agência Data uma experiência totalmente nova.</p>
+                <button id="control-img-play-desktop" class="control-button-section-5">assistir</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section data-section-name="our-section" class="sessao our">
+
+        <!-- RESPONSIVE -->
+
+        <div class="sexta-sessao">
+
+            <h2 id="control-h2-sexta-sessao" class="disabled">nossos serviços</h2>
+            <h1 id="control-h1-sexta-sessao" class="h1-sexta-sessao">Desenvolvemos tudo dentro de casa</h1>
+
+            <div class="our-animated">
+                <div id="control-animation-one" class="disabled">
+                    <div class="div-interna-sexta-sessao2">
+                        <img class="verified-service" src="assets/img/verified.png" alt="">
+                        <h3 class="h3-sexta-sessao">Criação da Campanha</h3>
+                    </div>
+                    <p class="p-sexta-sessao">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium
+                        voluptatum deleniti atque corrupti.</p>
+                </div>
+                <div id="control-animation-two" class="disabled">
+                    <div class="div-interna-sexta-sessao2">
+                        <img class="verified-service" src="assets/img/verified.png" alt="">
+                        <h3 class="h3-sexta-sessao">Criação da Campanha</h3>
+                    </div>
+                    <p class="p-sexta-sessao">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium
+                        voluptatum deleniti atque corrupti.</p>
+                </div>
+                <div id="control-animation-three" class="disabled">
+                    <div class="div-interna-sexta-sessao2">
+                        <img class="verified-service" src="assets/img/verified.png" alt="">
+                        <h3 class="h3-sexta-sessao">Criação da Campanha</h3>
+                    </div>
+                    <p class="p-sexta-sessao">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium
+                        voluptatum deleniti atque corrupti.</p>
+                </div>
+                <div id="control-animation-four" class="disabled">
+                    <div class="div-interna-sexta-sessao2">
+                        <img class="verified-service" src="assets/img/verified.png" alt="">
+                        <h3 class="h3-sexta-sessao">Criação da Campanha</h3>
+                    </div>
+                    <p class="p-sexta-sessao">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium
+                        voluptatum deleniti atque corrupti.</p>
+                </div>
+                <div id="control-animation-five" class="disabled">
+                    <div class="div-interna-sexta-sessao2">
+                        <img class="verified-service" src="assets/img/verified.png" alt="">
+                        <h3 class="h3-sexta-sessao">Criação da Campanha</h3>
+                    </div>
+                    <p class="p-sexta-sessao">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium
+                        voluptatum deleniti atque corrupti.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Desktop -->
+
+        <div class="sexta-sessao-desk">
+            <div class="coluna1-sexta-sessao-desk col-sm-4 col-md-4 col-lg-4">
+                <div id="m-animate-one-our" class="first-animated-our">
+                    <div class="div-interna-sexta-sessao2">
+                        <img class="verified" src="assets/img/verified.png" alt="">
+                        <h3 class="h3-sexta-sessao">Criação da Campanha</h3>
+                    </div>
+                    <p class="p-sexta-sessao-desk">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                        blanditiis
+                        praesentium voluptatum deleniti atque corrupti.</p>
+                </div>
+
+                <div id="m-animate-two-our" class="second-animated-our">
+                    <div class="div-interna-sexta-sessao2">
+                        <img class="verified" src="assets/img/verified.png" alt="">
+                        <h3 class="h3-sexta-sessao">Experiência Offline</h3>
+                    </div>
+                    <p class="p-sexta-sessao-desk">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                        blanditiis
+                        praesentium voluptatum deleniti atque corrupti.</p>
+                </div>
+                <div id="m-animate-three-our" class="third-animated-our">
+                    <div class="div-interna-sexta-sessao2">
+                        <img class="verified" src="assets/img/verified.png" alt="">
+                        <h3 class="h3-sexta-sessao">Gestão</h3>
+                    </div>
+                    <p class="p-sexta-sessao-desk-final">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                        blanditiis
+                        praesentium voluptatum deleniti atque corrupti.</p>
+                </div>
+            </div>
+
+
+            <div class="coluna2-sexta-sessao-desk col-sm-4 col-md-4 col-lg-4">
+                <h2 id="m-animate-h2-our" class="h2-sexta-sessao">nossos serviços</h2>
+                <h1 id="m-animate-h1-our" class="h1-sexta-sessao-desk">Desenvolvemos tudo dentro de casa</h1>
+                <img id="m-animate-img-our" class="img-responsive img-sexta-sessao-desk" src="assets/img/img-iPhone-sexta-sessao.png"
+                    alt="">
+            </div>
+
+
+            <div class="coluna3-sexta-sessao-desk col-sm-4 col-md-4 col-lg-4">
+                <div id="m-animate-four-our" class="fourth-animated-our">
+                    <div class="div-interna-sexta-sessao2">
+                        <img class="verified" src="assets/img/verified.png" alt="">
+                        <h3 class="h3-sexta-sessao">Monitoração</h3>
+                    </div>
+                    <p class="p-sexta-sessao-desk">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                        blanditiis
+                        praesentium voluptatum deleniti atque corrupti.</p>
+                </div>
+                <div id="m-animate-five-our" class="fifth-animated-our">
+                    <div class="div-interna-sexta-sessao2">
+                        <img class="verified" src="assets/img/verified.png" alt="">
+                        <h3 class="h3-sexta-sessao">Envio de Emails</h3>
+                    </div>
+                    <p class="p-sexta-sessao-desk">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                        blanditiis
+                        praesentium voluptatum deleniti atque corrupti.</p>
+                </div>
+                <div id="m-animate-six-our" class="sixth-animated-our">
+                    <div class="div-interna-sexta-sessao2">
+                        <img class="verified" src="assets/img/verified.png" alt="">
+                        <h3 class="h3-sexta-sessao">Plataforma e Mídias</h3>
+                    </div>
+                    <p class="p-sexta-sessao-desk-final">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                        blanditiis
+                        praesentium voluptatum deleniti atque corrupti.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section data-section-name="services-section" class="sessao services">
+
+        <!-- RESPONSIVE -->
+
+        <div id="carousel-example-generic00" class="setima01 carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="assets/img/bg-section7.png" alt="..." style="width:100%; height:100%;">
+                    <div class="carousel-caption" style="display: flex; flex-direction: column; justify-content: space-between;">
+                        <h2 class="h2-setima-sessao">serviços</h2>
+                        <div style="width: 100%; position: relative; display: flex; flex-direction: column; height: 48%;">
+                            <h1 class="h1-setima-sessao">Demos: algumas campanhas de exemplo.</h1>
+                            <p class="p-setima-sessao">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum
+                                dolor
+                                sit.
+                            </p>
+                            <button class="button-setima-sessao">show more</button>
+                        </div>
+                        <div class="div-super-relative">
+                            <img class="img-responsive container responsividade-iphone" src="assets/img/iPhone.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/bg-experiencia-offline.png" alt="..." style="width:100%; height:100%;">
+                    <div class="carousel-caption"  style="display: flex; flex-direction: column;">
+                        <h2 class="h2-setima-sessao">serviços</h2>
+
+                        <div style="width: 100%; height: 45%; position: relative; display: flex; flex-direction: column;justify-content: space-evenly;">
+                            <h1 class="h1-oitava-sessao">Experiência Offline.</h1>
+                            <p class="p2-setima-sessao">Para utilizar a nossa experiência, você precisa sim ter um
+                                plano de
+                                internet
+                                mas você apenas o utilizará na hora de subir todo o seu conteúdo para o Wi-Fi, a partir
+                                disso
+                                ele ficará disponível para todos os seus clientes utilizarem sem se preocupar com
+                                velocidade
+                                de carregamento ou perda de qualidade.</p>
+                        </div>
+                        <div class="div-on-carousel">
+                            <div class="div-interna-setima-sessao">
+                                <img class="verified" src="assets/img/verified.png" alt="" style="margin-top:0px;">
+                                <h3 class="h3-setima-sessao">Carrega Vídeos e imagens na hora</h3>
+                            </div>
+                            <div class="div-interna-setima-sessao">
+                                <img class="verified" src="assets/img/verified.png" alt="" style="margin-top:0px;">
+                                <h3 class="h3-setima-sessao">Não perde a Qualidade original do Material</h3>
+                            </div>
+                            <div class="div-interna-setima-sessao">
+                                <img class="verified" src="assets/img/verified.png" alt="" style="margin-top:0px;">
+                                <h3 class="h3-setima-sessao">Não precisa de Download para Nada</h3>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/bg-section7.png" alt="..." style="width:100%; height:100%;">
+                    <div class="carousel-caption" style="display: flex; flex-direction: column;">
+                        <h2 class="h2-setima-sessao">serviços</h2>
+                        <div style="width: 100%; height: 60%; position: relative; display: flex; flex-direction: column;justify-content: space-evenly;">
+                            <h1 class="h1-slider3-setima-sessao">Gestão: Receba Relatórios personalizados.</h1>
+                            <p class="p-slider3-setima-sessao">Iremos gerenciar todas as informações estatísticas e
+                                gerar
+                                relatórios
+                                personalizados para você. Esses envios poderão ser feitos de forma gráfica e/ou
+                                digital.
+                            </p>
+                            <div class="div2-interna-setima-sessao">
+                                <div class="div-interna-sessao7-1">
+                                    <img class="verified-second" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-slider3-setima-sessao">Acessos diários</h3>
+                                </div>
+                                <div class="div-interna-sessao7-segunda-1">
+                                    <img class="verified-second" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-slider3-setima-sessao">Dias de Pico</h3>
+                                </div>
+                            </div>
+                            <div class="div2-interna-setima-sessao">
+                                <div class="div-interna-sessao7-1">
+                                    <img class="verified-second" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-slider3-setima-sessao">Cadastros feitos</h3>
+                                </div>
+                                <div class="div-interna-sessao7-segunda-2">
+                                    <img class="verified-second" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-slider3-setima-sessao">Frequência</h3>
+                                </div>
+                            </div>
+                            <div class="div2-interna-setima-sessao">
+                                <div class="div-interna-sessao7-1">
+                                    <img class="verified-second" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-slider3-setima-sessao">Tipo de Dispositivo</h3>
+                                </div>
+                                <div class="div-interna-sessao7-segunda-3">
+                                    <img class="verified-second" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-slider3-setima-sessao strongh3">E Muito Mais</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div-teste-timo">
+                            <img class="img-responsive container teste-responsividade" src="assets/img/img-3slider3.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/bg-section7.png" alt="..." style="width:100%; height:100%;">
+                    <div class="carousel-caption" style="display: flex; flex-direction: column;">
+                        <h2 class="h2-setima-sessao">serviços</h2>
+
+                        <div style="width: 100%; height: 60%; position: relative; display: flex; flex-direction: column;justify-content: space-evenly;">
+                            <h1 class="h1-slider7-setima-sessao">Envio de Emails</h1>
+
+                            <div class="div-interna-sexta-sessao">
+                                <img class="verified" src="assets/img/verified.png" alt="">
+                                <h3 class="h3-sexta-sessao">Aproximação</h3>
+                            </div>
+                            <p class="p-sexta-sessao-slider">Envie emails de Boas Vindas para os clientes que visitaram
+                                seu
+                                estabelecimento
+                                pela primeira vez. Esteja sempre próximo dele.</p>
+
+
+                            <div class="div-interna-sexta-sessao">
+                                <img class="verified" src="assets/img/verified.png" alt="">
+                                <h3 class="h3-sexta-sessao">Momentos Especiais</h3>
+                            </div>
+                            <p class="p-sexta-sessao-slider">Faça envios em datas específicas, como feriados, festas,
+                                aniversários
+                                e outros, demonstrando interesse em seu cliente e fidelizando ele sempre.</p>
+
+                            <div class="div-interna-sexta-sessao">
+                                <img class="verified" src="assets/img/verified.png" alt="">
+                                <h3 class="h3-sexta-sessao">Bonificação</h3>
+                            </div>
+                            <p class="p-sexta-sessao-slider">Através de Emails, ofereça descontos, promoções e outros
+                                benefícios,
+                                atraia seus clientes e aumente sempre a frequência do seu estabelecimento.</p>
+                        </div>
+                        <div class="div-teste">
+
+                            <img class="img-responsive container responsividade-ipad" src="assets/img/iMac.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/bg-section7.png" alt="..." style="width:100%; height:100%;">
+                    <div class="carousel-caption" style="display: flex; flex-direction: column;">
+                        <h2 class="h2-setima-sessao">serviços</h2>
+                        <div style="width: 100%; height: 46%; position: relative; display: flex; flex-direction: column;justify-content: space-evenly;">
+                            <h1 class="h1-slide4-setima-sessao">Diversas Plataformas</h1>
+                            <p class="p-slide5-setima-sessao">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet,
+                                consectetur
+                                adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                Lorem
+                                ipsum
+                                dolor sit.
+                            </p>
+                            <div class="socials-slider7">
+                                <img src="assets/img/facebook-logo.png" alt="">
+                                <img src="assets/img/instagram-logo.png" alt="">
+                                <img src="assets/img/youtube-logo.png" alt="">
+                                <img src="assets/img/linkedin-logo.png" alt="">
+                                <img src="assets/img/twitter.png" alt="">
+                                <img src="assets/img/graph.png" alt="">
+                            </div>
+                        </div>
+                        <div class="div-techonlogy">
+                            <img class="img-responsive container responsividade-iphone" src="assets/img/iPhonedata.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#carousel-example-generic00" role="button" data-slide="prev">
+                <img class="arrow-left-carousel" src="assets/img/arrowleft.png" alt="">
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic00" role="button" data-slide="next">
+                <img class="arrow-right-carousel" src="assets/img/arrowright.png" alt="">
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- DESKTOP -->
+
+        <div class="setima-sessao-desk">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="top:0;">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="assets/img/background-slider-junji.png" alt="..." style="height: 100%; width: 100%;">
+                        <div class="carousel-caption">
+                            <div class="col-sm-5 col-md-5 col-lg-5" style="height: 100%;">
+                                <img class="img01-slider1-sessao7" src="assets/img/iPhone-slider1-setima-sessao.png"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-7 col-md-7 col-lg-7" style="height: 100%;padding-right: 205px;">
+                                <p class="titulo-slider1-setima-sessao">serviços</p>
+                                <h1 class="titulo2-slider1-setima-sessao">Demos: algumas campanhas de exemplo.</h1>
+                                <p class="titulo3-slider-setima-sessao">Lorem ipsum dolor sit. Lorem ipsum dolor sit
+                                    amet,
+                                    consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                                    pulvinar
+                                    dapibus leo. Lorem ipsum dolor sit.
+                                </p>
+                                <button class="button-setima-sessao-desk">show more</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/background-slider-experiencia-offline.png" alt="..." style="height: 100%;
+                                width: 100%;">
+                        <div class="carousel-caption">
+                            <div class="col-sm-12 col-md-12 col-lg-12" style="height: 100%;">
+                                <p class="titulo-slider2-setima-sessao">serviços</p>
+                                <h1 class="titulo2-slider2-setima-sessao">Experiência Offline.</h1>
+                                <p class="titulo3-slider2-setima-sessao">Para utilizar a nossa experiência, você
+                                    precisa
+                                    sim ter um plano de internet mas você apenas o utilizará na hora de subir todo o
+                                    seu
+                                    conteúdo para o Wi-Fi, a partir disso ele ficará disponível para todos os seus
+                                    clientes
+                                    utilizarem sem se preocupar com velocidade de carregamento ou perda de qualidade.
+                                </p>
+                                <div class="div-interna-setima-sessao-desk">
+                                    <img class="verified" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-setima-sessao">Carrega Vídeos e imagens na hora</h3>
+                                </div>
+                                <div class="div-interna-setima-sessao-desk">
+                                    <img class="verified" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-setima-sessao">Não perde a Qualidade original do Material</h3>
+                                </div>
+                                <div class="div-interna-setima-sessao-desk">
+                                    <img class="verified" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-setima-sessao">Não precisa de Download para Nada</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/background-slider-timo.png" alt="..." style="height: 100%;
+                                    width: 100%;">
+                        <div class="carousel-caption">
+
+                            <div class="col-sm-5 col-md-5 col-lg-5" style="height: 100%;">
+                                <p class="titulo-slider3-setima-sessao-desk">serviços</p>
+                                <h1 class="titulo2-slider2-setima-sessao">Gestão. Receba Relatórios presonalizados.</h1>
+                                <p class="titulo3-slider3-setima-sessao-desk">Iremos gerenciar todas as informações
+                                    estatísticas
+                                    e gerar relatórios personalizados para você. Esses envios poderão ser feitos de
+                                    forma
+                                    gráfica e/ou digital.
+                                </p>
+                                <p class="paragrafo3-slider3-setima-sessao-desk">Informações Geradas ao lado</p>
+                                <div class="div-interna-slider3-setima-sessao-desk">
+                                    <img class="verified" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-setima-slider3-sessao-desk">Acessos diários</h3>
+                                </div>
+                                <div class="div-interna-slider3-setima-sessao-desk">
+                                    <img class="verified" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-setima-slider3-sessao-desk">Dias de Pico</h3>
+                                </div>
+                                <div class="div-interna-slider3-setima-sessao-desk">
+                                    <img class="verified" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-setima-slider3-sessao-desk">Cadastros feitos</h3>
+                                </div>
+                                <div class="div-interna-slider3-setima-sessao-desk">
+                                    <img class="verified" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-setima-slider3-sessao-desk">Frequência</h3>
+                                </div>
+                                <div class="div-interna-slider3-setima-sessao-desk">
+                                    <img class="verified" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-setima-slider3-sessao-desk">Tipo de Dispositivos</h3>
+                                </div>
+                                <div class="div-interna-slider3-setima-sessao-desk">
+                                    <img class="verified" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-setima-sessao-desk-bold">E Muito Mais</h3>
+                                </div>
+                            </div>
+                            <div class="col-sm-7 col-md-7 col-lg-7" style="height: 100%;">
+                                <img class="img01-slider3-sessao7-desk img-responsive" src="assets/img/img-slider3-setima-sessao.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/background-slider-envio-de-emails.png" alt="..." style="height: 100%; width: 100%;">
+                        <div class="carousel-caption">
+                            <div class="col-sm-6 col-md-6 col-lg-6" style="height: 100%;padding-left: 0;">
+                                <img class="img04-slider4-sessao7-desk img-responsive" src="assets/img/iMac-setima-sessao-slider3-desk.png"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6" style="height: 100%;padding-right: 205px;">
+                                <p class="titulo-slider1-setima-sessao">serviços</p>
+                                <h1 class="titulo1-slider4-setima-sessao-desk">Envio de Emails</h1>
+                                <div class="div-interna-slider2-setima-sessao-desk">
+                                    <img class="verified" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-setima-sessao-slider4-desk">Aproximação</h3>
+                                </div>
+                                <p class="p-setima-slider4-sessao-desk">Envie emails de Boas Vindas para os clientes
+                                    que
+                                    visitaram seu estabelecimento pela primeira vez. Esteja sempre próximo dele.</p>
+
+                                <div class="div-interna-slider2-setima-sessao-desk">
+                                    <img class="verified" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-setima-sessao-slider4-desk">Momentos Especiais</h3>
+                                </div>
+                                <p class="p-setima-slider4-sessao-desk">Faça envios em datas específicas, como
+                                    feriados,
+                                    festas, aniversários e outros, demonstrando interesse em seu cliente e fidelizando
+                                    ele
+                                    sempre.
+                                </p>
+
+                                <div class="div-interna-slider2-setima-sessao-desk">
+                                    <img class="verified" src="assets/img/verified.png" alt="">
+                                    <h3 class="h3-setima-sessao-slider4-desk">Bonificação</h3>
+                                </div>
+                                <p class="p-setima-slider4-sessao-desk">Através de Emails, ofereça descontos, promoções
+                                    e
+                                    outros benefícios, atraia seus clientes e aumente sempre a frequência do seu
+                                    estabelecimento.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/background-slider-diversas-plataformas.png" alt="..." style="height: 100%; width: 100%;">
+                        <div class="carousel-caption">
+                            <div class="col-sm-6 col-md-6 col-lg-6" style="height: 100%;padding-left: 0;">
+                                <p class="titulo-slider5-setima-sessao-desk">serviços</p>
+                                <h1 class="titulo2-slider5-setima-sessao-desk">Diversas Plataformas.</h1>
+                                <p class="titulo3-slider5-setima-sessao-desk">Lorem ipsum dolor sit. Lorem ipsum dolor
+                                    sit
+                                    amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                                    pulvinar
+                                    dapibus leo. Lorem ipsum dolor sit.
+                                </p>
+                                <div class="socials-slider5-setima-sessao-desk">
+                                    <img src="assets/img/facebook-logo.png" alt="" style="width: 15px;">
+                                    <img src="assets/img/instagram-logo.png" alt="">
+                                    <img src="assets/img/youtube-logo.png" alt="">
+                                    <img src="assets/img/linkedin-logo.png" alt="">
+                                    <img src="assets/img/twitter.png" alt="">
+                                    <img src="assets/img/graph.png" alt="">
+                                </div>
+
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6" style="height: 100%;padding-right: 205px;">
+                                <img class="img01-slider3-sessao7-desk img-responsive" src="assets/img/iphone-diversas-plataformas.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control nobackground" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <img class="arrow-left-carousel" src="assets/img/arrowleft.png" alt="">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control nobackground" href="#carousel-example-generic" role="button"
+                    data-slide="next">
+                    <img class="arrow-right-carousel" src="assets/img/arrowright.png" alt="">
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section data-section-name="testimonials-section" class="sessao testimonials">
+
+        <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel" style="top:0;">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic2" data-slide-to="0" class="active  indicators-testimonial"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="1" class=" indicators-testimonial-disabled"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="2" class=" indicators-testimonial-disabled"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+
+                    <!-- RESPONSIVE -->
+
+                    <p class="h2-oitava-sessao">testimonials</p>
+                    <h1 class="h1-oitava-sessao">What say about us?</h1>
+                    <img class="aspas" src="assets/img/aspassesao8.png" alt="">
+                    <p class="p-oitava-sessao">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor
+                        sit.
+                    </p>
+                    <div class="intena-slide-logo">
+                        <img class="avatar-testimonials" src="assets/img/thor.png" alt="">
+                        <p class="testimonials-section-8"><span class="strong-on-testimonial">Ragnar Lothbrok</span><br /><span
+                                class="no-strong-on-testimonial">Estabelecimento, Cargo.</span></p>
+                    </div>
+
+                    <!-- DESKTOP -->
+
+                    <p class="titulo-slider1-oitava-sessao-desk">testimonials</p>
+                    <h1 class="h1-slider1-oitava-sessao-desk">What say about us?</h1>
+                    <img class="aspas-desk" src="assets/img/aspassesao8.png" alt="">
+                    <p class="p-oitava-sessao-desk">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor
+                        sit.
+                    </p>
+                    <div class="intena-slide-logo-desk">
+                        <img class="avatar-testimonials" src="assets/img/thor.png" alt="">
+                        <p class="testimonials-section-8"><span class="strong-on-testimonial">Ragnar Lothbrok</span><br /><span
+                                class="no-strong-on-testimonial">Estabelecimento, Cargo.</span></p>
+                    </div>
+
+                </div>
+                <div class="item">
+
+
+
+                    <p class="h2-oitava-sessao">testimonials</p>
+                    <h1 class="h1-oitava-sessao">What say about us?</h1>
+                    <img class="aspas" src="assets/img/aspassesao8.png" alt="">
+                    <p class="p-oitava-sessao">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor
+                        sit.
+                    </p>
+                    <div class="intena-slide-logo">
+                        <img class="avatar-testimonials" src="assets/img/thor.png" alt="">
+                        <p class="testimonials-section-8"><span class="strong-on-testimonial">Ragnar Lothbrok</span><br /><span
+                                class="no-strong-on-testimonial">Estabelecimento, Cargo.</span></p>
+                    </div>
+
+
+
+                    <p class="titulo-slider1-oitava-sessao-desk">testimonials</p>
+                    <h1 class="h1-slider1-oitava-sessao-desk">What say about us?</h1>
+                    <img class="aspas-desk" src="assets/img/aspassesao8.png" alt="">
+                    <p class="p-oitava-sessao-desk">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor
+                        sit.
+                    </p>
+                    <div class="intena-slide-logo-desk">
+                        <img class="avatar-testimonials" src="assets/img/thor.png" alt="">
+                        <p class="testimonials-section-8"><span class="strong-on-testimonial">Ragnar Lothbrok</span><br /><span
+                                class="no-strong-on-testimonial">Estabelecimento, Cargo.</span></p>
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+
+
+                    <p class="h2-oitava-sessao">testimonials</p>
+                    <h1 class="h1-oitava-sessao">What say about us?</h1>
+                    <img class="aspas" src="assets/img/aspassesao8.png" alt="">
+                    <p class="p-oitava-sessao">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor
+                        sit.
+                    </p>
+                    <div class="intena-slide-logo">
+                        <img class="avatar-testimonials" src="assets/img/thor.png" alt="">
+                        <p class="testimonials-section-8"><span class="strong-on-testimonial">Ragnar Lothbrok</span><br /><span
+                                class="no-strong-on-testimonial">Estabelecimento, Cargo.</span></p>
+                    </div>
+
+
+
+                    <p class="titulo-slider1-oitava-sessao-desk">testimonials</p>
+                    <h1 class="h1-slider1-oitava-sessao-desk">What say about us?</h1>
+                    <img class="aspas-desk" src="assets/img/aspassesao8.png" alt="">
+                    <p class="p-oitava-sessao-desk">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor
+                        sit.
+                    </p>
+                    <div class="intena-slide-logo-desk">
+                        <img class="avatar-testimonials" src="assets/img/thor.png" alt="">
+                        <p class="testimonials-section-8"><span class="strong-on-testimonial">Ragnar Lothbrok</span><br /><span
+                                class="no-strong-on-testimonial">Estabelecimento, Cargo.</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+                <img class="arrow-left-carousel" src="assets/img/arrowleft.png" alt="">
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+                <img class="arrow-right-carousel" src="assets/img/arrowright.png" alt="">
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+
+
+    <section data-section-name="technology-section" class="sessao technology">
+
+        <div id="carousel-example-generic4" class="nona01 carousel slide" data-ride="carousel" style="top:0px;">
+
+            <!-- RESPONSIVE -->
+
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                    <img class="" src="assets/img/bg-sessao9.png" alt="..." style="height: 100%; width: 100%;">
+                    <div class="carousel-caption" style="display: flex; flex-direction: column; justify-content: space-between;">
+                        <p class="h2-nona-sessao">tecnologia</p>
+                        <div style="width: 100%; position: relative; display: flex; flex-direction: column;">
+                            <h1 class="p-nona-sessao">Captive Portal Personalizado.</h1>
+                            <p class="p2-nona-sessao">É uma aplicação responsável por controlar e gerenciar o ingresso
+                                de
+                                usuários em redes públicas e privadas de forma automatizada.
+                            </p>
+                            <p class="p3-nona-sessao">o nosso vai muito além!</p>
+                            <p class="p4-nona-sessao">Nós oferecemos um Captive Portal com diversas soluções e uma
+                                experiência
+                                totalmente única.
+                            </p>
+                        </div>
+                        <div class="div-teste-smartphone">
+                            <img class="teste-responsividade img-responsive" src="assets/img/iphone-sessao9.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/bg-section7.png" alt="..." style="height: 100%; width: 100%;">
+                    <div class="carousel-caption" style="display: flex; flex-direction: column; justify-content: space-between;">
+                        <p class="h2-nona-sessao-slider2">tecnologia</p>
+                        <div style="width: 100%; position: relative; display: flex; flex-direction: column; justify-content: center;">
+
+                            <h1 class="p-nona-sessao-slider2">Monitor</h1>
+                            <p class="p2-nona-sessao-slider2">O monitor controla o fluxo de pessoas, desenvolvido para
+                                mensurar
+                                a fidelidade de seus clientes, diminuir custos e até mesmo vender mais.</p>
+                            <p class="p3-nona-sessao-slider2">Através dos sinais emitidos pels dispositivos presentes
+                                dentro
+                                do raio de alcance do nosso equipamento, contabilizaremos a passagem das pessoas sem a
+                                necessidade
+                                de estabelecer uma conexão.</p>
+                            <div class="usuarios-vermelho">
+                                <img class="icone-vermelho" src="assets/img/circulo-vermelho.png" alt="">
+                                <p class="p-icone-vermelho">Usuário cadastrado</p>
+                            </div>
+                            <div class="usuarios-azul">
+                                <img class="icone-azul" src="assets/img/circulo-azul.png" alt="">
+                                <p class="p-icone-azul">Usuário na área de alcance do equipamento</p>
+                            </div>
+                        </div>
+                        <div class="div-teste2">
+                            <img class="tecnologia-monitor-responsividade img-responsive" src="assets/img/equipamento.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/bg09slider3.png" alt="..." style="height: 100%; width: 100%;">
+                    <div class="carousel-caption" style="display: flex; flex-direction: column; justify-content: space-between;">
+                        <p class="h2-nona-sessao-slider3">tecnologia</p>
+
+                        <div style="width: 100%; position: relative; display: flex; flex-direction: column; justify-content: center;">
+                            <h1 class="p-nona-sessao-slider3">Diferencial Smart Tracking.</h1>
+                            <p class="p2-nona-sessao-slider3">Hoje em dia não é novidade usar diversas ferramentas de
+                                Tracking
+                                de clientes, para descobrir seus interesses e criar perfis para auxiliar em seu negócio
+                                e
+                                tornar suas vendas e seus interesses cada vez mais preciosos. Quem é que nunca procurou
+                                alguma
+                                coisa na internet e viu anúncios outras vezes em diversos sites.</p>
+                            <p class="p2-nona-sessao-slider3">Acontece que as empresas fazem isso de forma digital e
+                                nós
+                                também.
+                                <span class="texto-azul-slider3">Mas não paramos por aí.</span> Nós fazemos o Tracking
+                                de
+                                forma física também, logo sabemos através da nossa tecnologia, quais os
+                                estabelecimentos
+                                que os seus clientes frequentam e muito mais.</p>
+                        </div>
+                        <div class="div-teste2">
+                            <img class="teste-responsividade2 img-responsive" src="assets/img/img-sessao9slider3.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/bg-sessao9.png" alt="..." style="height: 100%; width: 100%;">
+                    <div class="carousel-caption" style="display: flex; flex-direction: column; justify-content: space-between;">
+                        <p class="h2-nona-sessao-slider4">tecnologia</p>
+                        <div style="width: 100%; height: 100%; position: relative; display: flex; flex-direction: column;justify-content: space-evenly;">
+                            <h1 class="p-nona-sessao-slider4">Marco Civil da Internet.</h1>
+                            <p class="p2-nona-sessao-slider4">Conforme o Marco Civil da internet o controle das
+                                empresas
+                                deverá ser mais efetivo. A proteção dos dados pessoais e a privacidade dos usuarios são
+                                garantias
+                                estabelecidas pela lei.( N 12.965/14 )</p>
+                            <p class="p3-nona-sessao-slider4">O principal objetivo do Marco Civil da Internet é prever
+                                práticas
+                                criminosas no contexto online, além de prezar pelos ideais da neutralidade de rede,
+                                liberdade
+                                de expressão e da privacidade dos usuários.</p>
+                        </div>
+                        <div class="div-marco-civil">
+                            <img class="teste-marco-civil img-responsive" src="assets/img/iPad-sessao9-slider4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <a class="left carousel-control nobackground" href="#carousel-example-generic4" role="button" data-slide="prev">
+                <img class="arrow-left-carousel" src="assets/img/arrowleft.png" alt="">
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control nobackground" href="#carousel-example-generic4" role="button" data-slide="next">
+                <img class="arrow-right-carousel" src="assets/img/arrowright.png" alt="">
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+
+        <!-- DESKTOP -->
+
+        <div class="nona-sessao-desk">
+
+            <h2 class="h2-nona-sessao">tecnologia</h2>
+
+            <div id="carousel-example-generic3" class="carousel slide" data-ride="carousel" style="top:0;">
+
+
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                        <img class="" src="assets/img/background-tecnologia-captive-portal-personalizado.png" alt="..."
+                            style="height: 100%; width: 100%;">
+                        <div class="carousel-caption">
+
+                            <div class="col-sm-4 col-md-4 col-lg-4" style="height: 100%;padding-left: 0;padding-right:0;">
+                                <img class="img-responsive imagens-nona-sessao-desk" src="assets/img/imagem-slider1-nona-sessao-desk.png"
+                                    alt="">
+                            </div>
+
+                            <div class="col-sm-2 col-md-2 col-lg-2" style="height: 100%;padding-left: 0;padding-right:0;">
+                                <img class="img-responsive iphone-nona-sessao-desk" src="assets/img/iphone-tecnologia-captive-portal.png"
+                                    alt="">
+                            </div>
+
+                            <div class="col-sm-6 col-md-6 col-lg-6" style="height: 100%;padding-left: 0;padding-right:0;">
+                                <p class="titulo-slider1-nona-sessao-desk">tecnologia</p>
+                                <h1 class="titulo2-slider1-nona-sessao-desk">Captive Portal Personalizado.</h1>
+                                <p class="titulo3-slider1-none-sessao-desk">É uma aplicação responsável por controlar e
+                                    gerenciar
+                                    o ingresso de usuários em redes públicas e privadas de forma automatizada.
+                                </p>
+                                <p class="paragrafo-slider1-nona-sessao-desk">o nosso vai muito além!</p>
+                                <p class="titulo3-slider1-none-sessao-desk">Nós oferecemos um Captive Portal com
+                                    diversas
+                                    soluções e uma experiência totalmente única.
+                                </p>
+                                <img class="xicara-nona-sessao-desk" src="assets/img/xicara-nona-sessao.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/background-slider2-nona-sessao-desk.png" alt="..." style="height: 100%; width: 100%;">
+                        <div class="carousel-caption">
+                            <div class="col-sm-6 col-md-6 col-lg-6" style="height: 100%;padding-left: 0;padding-right:0;">
+                                <p class="titulo-slider2-nona-sessao-desk">tecnologia</p>
+                                <h1 class="titulo2-slider2-nona-sessao-desk">Monitor.</h1>
+                                <p class="p-slider2-nona-sessao-desk">O Monitor conta o fluxo de pessoas, desenvolvido
+                                    para
+                                    mensurar a fidelidade de seus clientes, diminuir custos e até mesmo vender mais.</p>
+                                <p class="p-slider2-nona-sessao-desk">Através dos sinais emitidos pelos dispositivos
+                                    presentes
+                                    dentro do raio de alcance do nosso equipamento. Contabilizaremos a passagem das
+                                    pessoas,
+                                    sem a necessidade de estabelecer uma conexão.</p>
+                                <div class="usuarios-vermelho-desk">
+                                    <img class="icone-vermelho" src="assets/img/circulo-vermelho.png" alt="">
+                                    <p class="p-icone-vermelho-desk">Usuário cadastrado</p>
+                                </div>
+                                <div class="usuarios-azul-desk">
+                                    <img class="icone-azul" src="assets/img/circulo-azul.png" alt="">
+                                    <p class="p-icone-azul-desk">Usuário na área de alcance do equipamento</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6" style="height: 100%;padding-left: 0;padding-right:0;">
+                                <img class="img-equipamento-slider2 img-responsive" src="assets/img/equipamento-tecnologia-monitor.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/background-slider-tecnologia-smart-tracking.png" alt="..." style="height: 100%; width: 100%;">
+                        <div class="carousel-caption">
+                            <div class="col-sm-6 col-md-6 col-lg-6" style="height: 100%;padding-left: 0;padding-right:110;">
+                                <p class="titulo-slider2-nona-sessao-desk">tecnologia</p>
+                                <h1 class="h1-slider2-nona-sessao">Diferencial Smart Tracking.</h1>
+                                <p class="p-slider2-nona-sessao">Hoje em dia não é novidade usar diversas ferramentas
+                                    de
+                                    Tracking de clientes, para descobrir seus interesses e criar perfis para auxiliar
+                                    em
+                                    seu negócio e tornar suas vendas e seus interesses cada vez mais preciosos. Quem é
+                                    que
+                                    nunca procurou alguma coisa na internet e viu anúncios outras vezes em diversos
+                                    sites.
+                                </p>
+                                <p class="p2-slider2-nona-sessao">Acontece que as empresas fazem isso de forma digital
+                                    e
+                                    nós também.
+                                    <span class="texto-azul-slider3">Mas não paramos por aí.</span> Nós fazemos o
+                                    Tracking
+                                    de forma física também, logo sabemos através da nossa tecnologia, quais os
+                                    estabelecimentos
+                                    que os seus clientes frequentam e muito mais.</p>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6" style="height: 100%;padding-left: 0;padding-right:0;">
+                                <img class="img-tracking-slider3 img-responsive" src="assets/img/img-slider-smart-tracking.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/background-tecnologia-marco-civil.png" alt="..." style="height: 100%; width: 100%;">
+                        <div class="carousel-caption">
+                            <div class="col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2"
+                                style="height: 100%;padding-left: 0;padding-right:0;">
+                                <p class="titulo-slider4-nona-sessao-desk">tecnologia</p>
+                                <h1 class="h1-slider4-nona-sessao">Marco Civil da Internet.</h1>
+                                <p class="p-slider4-nona-sessao">Conforme o Marco Civil da internet o controle das
+                                    empresas
+                                    deverá ser mais efetivo. A proteção dos dados pessoais e a privacidade dos usuarios
+                                    são
+                                    garantias estabelecidas pela lei.( N 12.965/14 )</p>
+                                <p class="p-slider4-nona-sessao">O principal objetivo do Marco Civil da Internet é
+                                    prever
+                                    práticas criminosas no contexto online, além de prezar pelos ideais da neutralidade
+                                    de
+                                    rede, liberdade de expressão e da privacidade dos usuários.</p>
+                            </div>
+                            <div class="col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1"
+                                style="height: 100%;padding-left: 0;padding-right:0;">
+                                <img class="ipad-slider4-nona-sessao img-responsive" src="assets/img/ipad-tecnologia-marco-civil.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <a class="left carousel-control nobackground" href="#carousel-example-generic3" role="button"
+                    data-slide="prev">
+                    <img class="arrow-left-carousel" src="assets/img/arrowleft.png" alt="">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control nobackground" href="#carousel-example-generic3" role="button"
+                    data-slide="next">
+                    <img class="arrow-right-carousel" src="assets/img/arrowright.png" alt="">
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section data-section-name="contact-section" class="sessao contact">
+
+        <!-- DESKTOP -->
+
+        <div class="parceiros">
+            <img class="img-responsive" src="assets/img/parceiro01.png" alt="">
+            <img class="img-responsive" src="assets/img/parceiro02.png" alt="">
+            <img class="img-responsive" src="assets/img/parceiro03.png" alt="">
+            <img class="img-responsive" src="assets/img/parceiro04.png" alt="">
+            <img class="img-responsive" src="assets/img/parceiro05.png" alt="">
+        </div>
+
+        <div class="parceiros-col-1 col-sm-6 col-md-6 col-lg-6" style="height: 75%;">
+            <div class="div-mapa-desk">
+                <iframe class="mapa-desk" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.563093203895!2d-46.701965184462026!3d-23.58413016831983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce571a0befde61%3A0x5220566993302340!2sPra%C3%A7a+Dr.+Jo%C3%A3o+Adhemar+de+Almeida+Prado%2C+40+-+Jardim+Everest%2C+S%C3%A3o+Paulo+-+SP%2C+05601-040!5e0!3m2!1spt-BR!2sbr!4v1537294689532"
+                    frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="parceiros-col-2 col-sm-6 col-md-6 col-lg-6" style="height: 75%;padding-right:175px;">
+            <h1 class="h1-decima-sessao-desk">Fale Conosco</h1>
+            <p class="p-decima-sessao-desk">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, adipiscing elit. Ut elit
+                tellus,
+                luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit.</p>
+            <form action="." method="post">
+                <div class="form-group">
+                    <input type="text" class=" height-form form-control" id="InputEmail" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class=" height-form form-control" id="InputPassword" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="tel" class=" height-form form-control" id="InputPhone" placeholder="Telefone">
+                </div>
+                <button type="submit" class=" height-form bold-button btn btn-default btn-block">Enviar</button>
+            </form>
+        </div>
+
+        <!-- RESPONSIVE -->
+        <h1 class="h1-decima-sessao">Fale Conosco</h1>
+        <p class="p-decima-sessao">Lorem ipsum dolor sit. Lorem ipsum dolor sit amet, adipiscing elit. Ut elit tellus,
+            luctus
+            nec ullamcorper mattis.</p>
+
+        <div>
+            <form action="." method="post" class="container form-responsive">
+                <div class="form-group form-margin">
+                    <input type="text" class="form-control" id="InputEmail" placeholder="Name">
+                </div>
+                <div class="form-group form-margin">
+                    <input type="email" class="form-control" id="InputPassword" placeholder="Email">
+                </div>
+                <div class="form-group form-margin">
+                    <input type="number" class="form-control" id="InputPhone" placeholder="Telefone">
+                </div>
+
+                <button type="submit" class="btn btn-default btn-block btn-formulario">Enviar</button>
+            </form>
+        </div>
+
+        <div class="container mapa">
+            <iframe class="img-responsive mapa-interno" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.563093203895!2d-46.701965184462026!3d-23.58413016831983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce571a0befde61%3A0x5220566993302340!2sPra%C3%A7a+Dr.+Jo%C3%A3o+Adhemar+de+Almeida+Prado%2C+40+-+Jardim+Everest%2C+S%C3%A3o+Paulo+-+SP%2C+05601-040!5e0!3m2!1spt-BR!2sbr!4v1537294689532"
+                frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <p class="by-blue">© 2018 - by. BlueConecta</p>
+
+    </section>
+
+
+    <!-- <div class="sessao footer-scroll"> -->
+    <section class="footer col-sm-12 col-md-12 col-lg-12">
+
+        <div class="footer-primeira-coluna col-sm-3 col-md-3 col-lg-3">
+            <img class="footer-primeira-coluna-imagem img-responsive" src="assets/img/logo-definitiva.png" alt="Agencia Data">
+            <p class="footer-primeira-coluna-paragrafo"><span class="footer-primeira-coluna-paragrafo-bold">Address</span>:
+                Praça Dr. Adhemar de Almeida Prado, n 40.</p>
+            <p class="footer-primeira-coluna-paragrafo"><span class="footer-primeira-coluna-paragrafo-bold">Mobile</span>:
+                (11) 9 3258 - 5842</p>
+            <p class="footer-primeira-coluna-paragrafo"><span class="footer-primeira-coluna-paragrafo-bold">Telefone</span>:
+                (11) 3056 - 2200</p>
+            <p class="footer-primeira-coluna-paragrafo" style="margin-bottom: 25px;"><span class="footer-primeira-coluna-paragrafo-bold">Email</span>:
+                contato@blueconecta.com.br
+            </p>
+        </div>
+        <div class="footer-segunda-coluna col-sm-3 col-md-3 col-lg-3">
+            <p class="footer-segunda-coluna-paragrafoTitulo-bold">Conteúdo</p>
+            <P class="footer-segunda-coluna-paragrafo-bold">Agência</P>
+            <p class="footer-segunda-coluna-paragrafo">27 de Agosto, 2018</p>
+            <P class="footer-segunda-coluna-paragrafo-bold">Vídeo</P>
+            <p class="footer-segunda-coluna-paragrafo">27 de Agosto, 2018</p>
+            <P class="footer-segunda-coluna-paragrafo-bold">Serviços</P>
+            <p class="footer-segunda-coluna-paragrafo">27 de Agosto, 2018</p>
+            <P class="footer-segunda-coluna-paragrafo-bold">Tecnologia</P>
+            <p class="footer-segunda-coluna-paragrafo">27 de Agosto, 2018</p>
+            <P class="footer-segunda-coluna-paragrafo-bold">Testemunhos</P>
+            <p class="footer-segunda-coluna-paragrafo" style="margin-bottom: 25px;">27 de Agosto, 2018</p>
+        </div>
+        <div class="footer-terceira-coluna col-sm-3 col-md-3 col-lg-3">
+            <p class="footer-terceira-coluna-paragrafo-bold">Notícias</p>
+            <div class="footer-terceira-coluna-noticias">
+                <div><img src="assets/img/footer-icone-noticias.png" alt=""></div>
+                <div class="footer-terceira-coluna-noticias-paragrafos">
+                    <p class="footer-terceira-coluna-noticias-paragrafo-bold">Lorem Ipsum Dolor Sit</p>
+                    <p class="footer-terceira-coluna-noticias-paragrafo">27 de Agosto, 2018</p>
+                </div>
+            </div>
+            <div class="footer-terceira-coluna-noticias">
+                <div><img src="assets/img/footer-icone-noticias2.png" alt=""></div>
+                <div class="footer-terceira-coluna-noticias-paragrafos">
+                    <p class="footer-terceira-coluna-noticias-paragrafo-bold">Lorem Ipsum Dolor Sit</p>
+                    <p class="footer-terceira-coluna-noticias-paragrafo">27 de Agosto, 2018</p>
+                </div>
+            </div>
+            <div class="footer-terceira-coluna-noticias">
+                <div><img src="assets/img/footer-icone-noticias3.png" alt=""></div>
+                <div class="footer-terceira-coluna-noticias-paragrafos">
+                    <p class="footer-terceira-coluna-noticias-paragrafo-bold">Lorem Ipsum Dolor Sit</p>
+                    <p class="footer-terceira-coluna-noticias-paragrafo">27 de Agosto, 2018</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-quarta-coluna col-sm-3 col-md-3 col-lg-3">
+            <p class="footer-quarta-coluna-paragrafo-bold">Notícias</p>
+            <p class="footer-quarta-coluna-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ultrices,
+                nibh vel condimentum vehicula, dolor.</p>
+
+            <!-- Newsletter -->
+
+            <form action="." method="post" class="newsletter">
+                <input class="newsletter-input" type="email" placeholder="Your email address">
+                <button class="newsletter-button" type="submit">Sign up</button>
+            </form>
+        </div>
+
+    </section>
+
+    <div class="footer-final col-sm-12 col-md-12 col-lg-12">
+        <div class="footer-final-byBlue col-sm-2 col-md-2 col-lg-2">
+            <p class="footer-final-texto">© 2018 - by. BlueConecta</p>
+        </div>
+        <div class="footer-final-redes-sociais col-sm-3 col-md-3 col-lg-3">
+
+            <a class="facebook-footer" href="https://www.facebook.com/agenciadata/" target="_blank"></a>
+            <a class="instagram-footer" href="https://www.instagram.com/agenciadata/" target="_blank"></a>
+            <a class="youtube-footer" href="https://www.youtube.com/channel/UCHJDScKcn9wQbwIbX1LjvFQ?view_as=subscriber"
+                target="_blank"></a>
+            <a class="linkedin-footer" href="https://www.linkedin.com/company/agenciadata/" target="_blank"></a>
+            <a class="twitter-footer" href="https://twitter.com/AgenciaData" target="_blank"></a>
+
+        </div>
+    </div>
+
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.scrollify.js"></script>
+    <script src="assets/js/jquery.animateNumber.min.js"></script>
+    <script src="assets/js/jquery.touchSwipe.min.js"></script>
+    <script src="assets/js/site.js"></script>
+</body>
+
+</html>

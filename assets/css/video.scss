@@ -1,0 +1,292 @@
+.video{
+    height: 100%;
+    width: 100%;
+}
+
+
+.quinta-sessao{
+    background-image: url(../img/bg-section5.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    @media (min-width: 768px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+        // display: block;
+    }
+    @media (min-width: 1368px) {
+        
+    }
+}
+.img-play{
+    height: 85px;
+    position: relative;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: imgplayanimation ease-in-out 2s forwards;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+        height: 120px;
+    }
+    @media (min-width: 1368px) {
+        height: 150px;
+    }
+}
+.img-play-mobile{
+    height: 85px;
+    position: relative;
+    top: 50%;
+    cursor: pointer;
+    animation: imgplayanimation-mobile ease-out 1s forwards;   
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+.img-play-0{
+    display: none;
+}
+.h3-quinta-sessao{    
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 8px;
+    font-size: 14px;
+    position: relative;
+    animation: titulosecaovideo ease-in-out 1s forwards;
+    @media (max-width: 500px) and (min-width: 420px) {
+        font-size: 16px;
+    }
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+.p-quinta-sessao{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    padding: 0 40px;
+    margin-bottom: 45px;
+    position: relative;
+    animation: titulosecaovideo ease-in-out 2s forwards;
+    @media (max-width: 359px) and (min-width: 321px) {
+    }
+    @media (max-width: 374px) and (min-width: 360px) {
+        font-size: 30px;
+        padding: 0 52px;
+    } 
+    @media (max-width: 411px) and (min-width: 375px) {
+        font-size: 32px;
+    }
+    @media (max-width: 767px) and (min-width: 412px) {
+        font-size: 36px;
+    }
+    @media (max-width: 500px) and (min-width: 420px) {
+        font-size: 45px;
+    }
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+.button-quinta-sessao{
+    text-transform: uppercase;
+    border: none;
+    background-color: #f7aa2e;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 30px;
+    letter-spacing: 4px;
+    position: relative;
+    animation: buttonsecaovideo ease-out 1s forwards;
+    @media (max-width: 500px) and (min-width: 420px) {
+        padding: 15px 40px;
+        border-radius: 40px;
+    }
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+.button-quinta-sessao:focus{
+    outline-style: none;
+}
+.interna-quinta-sessao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // width: 75%;
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+.video-play{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    z-index: 600;
+    position: absolute;
+}
+.video-play-intern{
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+}
+
+.quinta-sessao-desk{
+    background-image: url(../img/background-quinta-sessao-desk.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+
+.interna-quinta-sessao-desk{
+    height: 100%;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+    }
+}
+
+.interna-quinta-sessao-desk-2{
+    height: 100%;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+    }
+}
+
+.h3-quinta-sessao-desk{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 8px;
+    font-size: 14px;
+    margin-top: 155px;
+    position: relative;
+    animation: h3secaovideo ease-in-out 2s forwards;    
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        margin-top: 27%;
+        font-size: 20px;
+    }
+}
+.h3-quinta-sessao-desk-0{
+    display: none;
+}
+.p-quinta-sessao-desk{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    // text-align: center;
+    // padding: 0 40px;
+    margin-bottom: 45px;
+    margin-top: 50px;
+    padding-right: 168px;
+    line-height: 61px;
+    position: relative;
+    animation: titulosecaovideo ease-in-out 4s forwards;    
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        font-size: 87px;
+        line-height: 100px;
+    }
+}
+.p-quinta-sessao-desk-0{
+    display: none;
+}
+.button-quinta-sessao-desk{
+    text-transform: uppercase;
+    border: none;
+    background-color: #f7aa2e;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 30px;
+    letter-spacing: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: relative;
+    animation: buttonsecaovideo ease-in-out 2s forwards;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        padding: 16px 55px;
+        font-size: 15px;
+        letter-spacing: 8px;
+    }
+}
+.button-quinta-sessao-desk:focus{
+    outline-style: none;
+}
+.button-quinta-sessao-desk-0{
+    display: none;
+}
+
+.close-video{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.5);
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 600;
+    cursor: pointer;
+}
+.barra-one{
+    background-color: #000;
+    width: 23px;
+    height: 4px;
+    position: fixed;
+    top: 28px;
+    right: 19px;
+    transform: rotate(45deg);
+}
+.barra-two{
+    background-color: #000;
+    width: 23px;
+    height: 4px;
+    position: fixed;
+    top: 28px;
+    right: 19px;
+    transform: rotate(-45deg);
+}

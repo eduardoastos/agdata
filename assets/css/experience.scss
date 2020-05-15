@@ -1,0 +1,204 @@
+.experience{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+.titulo-quarta-sessao{
+    color: #fff;
+    text-align: center;
+    padding: 25px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    position: relative;
+    animation: tituloquartasecao ease-in-out 1s forwards;
+    @media (max-width: 359px) and (min-width: 320px) {
+        padding: 45px 20px 25px 20px;
+    }
+    @media (max-width: 375px) and (min-width: 360px) {
+        font-size: 24px;
+    } 
+    @media (max-width: 415px) and (min-width: 376px) {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    @media (max-width: 500px) and (min-width: 416px) {
+        font-size: 32px;
+        line-height: 35px;
+        padding: 65px 20px 25px 20px;
+    }
+}
+.p-quarta-sessao{
+    color: #fff;
+    text-align: justify;
+    padding: 0 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    margin-bottom: 10px;
+    position: relative;
+    animation: tituloquartasecao ease-in-out 2s forwards;
+    @media (max-width: 359px) and (min-width: 320px) {
+        font-size: 11px;    
+        margin-bottom: 45px;    
+    }
+    @media (max-width: 375px) and (min-width: 359px) {
+        font-size: 13px;
+        margin-bottom: 25px;
+    } 
+    @media (max-width: 415px) and (min-width: 376px) {
+        font-size: 14px;
+        margin-bottom: 38px;
+    }
+    @media (max-width: 500px) and (min-width: 416px) {
+        font-size: 16px;
+        margin-bottom: 80px;
+        margin-top: 24px;
+    }
+}
+.descricao-barra1{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.descricao-barra1 p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.barra-personalizada1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-radius: 0px;
+    @media (max-width: 359px) and (min-width: 321px) {
+    }
+    @media (max-width: 375px) and (min-width: 359px) {
+        margin-bottom: 18px;
+    } 
+    @media (max-width: 415px) and (min-width: 376px) {
+        margin-bottom: 39px;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        margin-bottom: 30px;
+    }
+    @media (max-width: 500px) and (min-width: 416px) {
+        margin-bottom: 45px;
+    }
+}
+.cor-barra{
+    background-color: #f7aa2e;
+}
+
+.imagem-quarta-sessao-desk{
+    padding: 0;
+    height: 100%;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.imagem-quarta-sessao-desk-intern{
+    padding: 0;
+    height: 100%;
+    position: relative;
+    animation: imagemquartasecao ease-in-out 1.5s forwards;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+        height: 100%;
+    }
+    @media (min-width: 1368px) {
+    }
+}
+.quarta-sessao-responsiva{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+.quarta-sessao-desk{
+    height: 100%;
+    padding: 0;
+    padding-left: 45px;
+    padding-right: 45px;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.titulo-quarta-sessao-desk{
+    color: #fff;
+    text-align: left;
+    padding: 25px 20px 45px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 31px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    animation: tituloquartasecao ease-in-out 1.5s forwards;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+        padding: 120px 20px 45px 20px;
+    }
+    @media (min-width: 1368px) {
+        padding: 150px 20px 45px 20px;
+        font-size: 46px;
+        line-height: 58px;
+    }
+}
+.p-quarta-sessao-desk{
+    color: #fff;
+    text-align: justify;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 17px;
+    margin-bottom: 45px;
+    line-height: 24px;
+    position: relative;
+    animation: tituloquartasecao ease-in-out 2.5s forwards;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        font-size: 26px;
+        line-height: 36px;
+    }    
+}
+.progress-desk{
+    height: 7px;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        height: 18px;
+    }  
+}
+.descricao-barra1 p{
+    @media (max-width: 767px) and (min-width: 2px) {
+        // display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,432 @@
+.our{
+    height: 100%;
+    width: 100%;  
+    background-color: #000;
+}
+
+.sexta-sessao{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+.h2-sexta-sessao{
+    margin-top: 42px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #f7aa2e;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5%;
+    // padding-bottom: 17.5px;
+    letter-spacing: 2px;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-weight: bold;
+    position: relative;
+    opacity: 0;
+    animation: titleonoursection ease-in-out 1s forwards;
+    // animation-delay: 2.5s;
+    @media (max-width: 767px) and (min-width: 411px) {
+        font-size: 22px;
+        margin-top: 13%;
+        padding-top: 0;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        font-size: 20px;
+        padding-bottom: 13.5px;
+        letter-spacing: 3px;
+    }
+}
+.h1-sexta-sessao{
+    color: #fff;
+    text-align: center;
+    padding: 0 35px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    line-height: 32px;
+    margin-bottom: 0;
+    font-weight: bold;
+    position: relative;
+    opacity: 0;
+    animation: subtitleonoursection ease-in-out 1.5s forwards;
+    // animation-delay: 0.3s;
+    @media (max-width: 359px) and (min-width: 320px) {
+    }
+    @media (max-width: 374px) and (min-width: 359px) { 
+        font-size: 25px;
+    } 
+    @media (max-width: 413px) and (min-width: 375px) {
+        font-size: 31px;
+    }
+    @media (max-width: 416px) and (min-width: 414px) {
+        font-size: 34px;
+        line-height: 38px;
+        margin-bottom: 30px;
+    }
+    @media (max-width: 500px) and (min-width: 417px) {
+        margin-bottom: 72px;
+        font-size: 34px;
+        line-height: 37px;
+    }
+}
+.div-interna-sexta-sessao{
+    display: flex;
+    align-items: flex-end;
+    padding: 0 10%;
+    @media (max-width: 374px) and (min-width: 360px) { 
+        margin-top: 10px;
+    }
+    @media (max-width: 500px) and (min-width: 411px) {
+        display: flex;
+        align-items: center !important; 
+    }
+}
+.div-interna-sexta-sessao2{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    @media (max-width: 500px) and (min-width: 416px) {
+        display: flex;
+        align-items: center;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+    }
+}
+.verified{
+    height: 20px;
+    width: 20px;  
+    @media (max-width: 359px) and (min-width: 321px) {
+    }
+    @media (max-width: 374px) and (min-width: 359px) { 
+    } 
+    @media (max-width: 413px) and (min-width: 375px) {
+    }
+    @media (max-width: 416px) and (min-width: 414px) {
+        margin-top: 0;
+    }
+    @media (max-width: 500px) and (min-width: 417px) {
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+    }  
+}
+
+.verified-service{
+    height: 15px;
+    width: 15px;  
+    @media (max-width: 359px) and (min-width: 321px) {
+    }
+    @media (max-width: 374px) and (min-width: 359px) { 
+    } 
+    @media (max-width: 410px) and (min-width: 375px) {
+    }
+    @media (max-width: 768px) and (min-width: 411px) {
+        // margin-top: 4px;
+    }
+}
+
+.verified-second{
+    height: 20px;
+    width: 20px;  
+    @media (max-width: 359px) and (min-width: 321px) {
+    }
+    @media (max-width: 374px) and (min-width: 359px) { 
+    } 
+    @media (max-width: 413px) and (min-width: 375px) {
+    }
+    @media (max-width: 500px) and (min-width: 414px) {
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+    }  
+}
+.h3-sexta-sessao{
+    margin-top: 0;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.5px;
+    margin-bottom: 2px;
+    margin-left: 8px;
+    @media (max-width: 359px) and (min-width: 321px) {
+    }
+    @media (max-width: 374px) and (min-width: 359px) { 
+    } 
+    @media (max-width: 413px) and (min-width: 375px) {
+        font-size: 19px;
+    }
+    @media (max-width: 420px) and (min-width: 414px) {
+        font-size: 21px;
+    }
+    @media (max-width: 500px) and (min-width: 421px) {
+        font-size: 25px;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        font-size: 27px;
+    }
+}
+.p-sexta-sessao{
+    color: #fff;
+    padding: 0 30px 0 44px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    @media (max-width: 359px) and (min-width: 321px) {
+    }
+    @media (max-width: 374px) and (min-width: 359px) { 
+        font-size: 10px;
+        margin-bottom: 11px;  
+    } 
+    @media (max-width: 415px) and (min-width: 375px) {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    @media (max-width: 416px) and (min-width: 414px) {
+        font-size: 13px;    
+    }
+    @media (max-width: 500px) and (min-width: 417px) {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+    @media (min-width: 768px) {
+    }
+}
+
+
+
+.sexta-sessao-desk{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background-nossos-servicos.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.h1-sexta-sessao-desk{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 0 35px;
+    margin-top: 0;
+    line-height: 32px;
+    margin-bottom: 32px;
+    font-weight: bold;
+    font-size: 36px;
+    position: relative;
+    opacity: 0;
+    animation: subtitleonoursection ease-in-out 1.5s forwards;
+    animation-delay: 0.3s;    
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        font-size: 55px;
+        line-height: 55px;
+        padding: 0 15px;
+    }
+}
+.img-sexta-sessao-desk{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    animation: imageonoursection ease-in-out 1.5s forwards;
+    animation-delay: 0.3s; 
+    transform: translateX(-50%);
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    } 
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        height: 76%;
+    }
+}
+.coluna2-sexta-sessao-desk{
+    height: 100%;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.coluna1-sexta-sessao-desk{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.coluna3-sexta-sessao-desk{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    } 
+}
+.p-sexta-sessao-desk{
+    color: #fff;
+    padding: 0 30px 0 54px;
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 24px;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    } 
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        line-height: 28px;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+}
+.p-sexta-sessao-desk-final{
+    color: #fff;
+    padding: 0 30px 0 54px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 24px;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    } 
+    @media (max-width: 1366px) and (min-width: 768px) {
+    }
+    @media (min-width: 1368px) {
+        line-height: 28px;
+        font-size: 20px;
+    }
+}
+.first-animated-our{
+    margin-top: 60px;
+    position: relative;
+    opacity: 0;
+    animation: textonoursection ease-in-out 1.5s forwards;
+    animation-delay: 1.5s;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.second-animated-our{
+    margin: 20px 0px;
+    position: relative;
+    opacity: 0;
+    animation: textonoursection ease-in-out 1.5s forwards;
+    animation-delay: 2.3s;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.third-animated-our{
+    position: relative;
+    opacity: 0;
+    animation: textonoursection ease-in-out 1.5s forwards;
+    animation-delay: 3.1s;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.fourth-animated-our{
+    margin-top: 60px;
+    position: relative;
+    opacity: 0;
+    animation: textonoursection ease-in-out 1.5s forwards;
+    animation-delay: 1.9s;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.fifth-animated-our{
+    margin: 20px 0px;
+    position: relative;
+    opacity: 0;
+    animation: textonoursection ease-in-out 1.5s forwards;
+    animation-delay: 2.7s;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+.sixth-animated-our{
+    position: relative;
+    opacity: 0;
+    animation: textonoursection ease-in-out 1.5s forwards;
+    animation-delay: 3.5s;
+    @media (max-width: 767px) and (min-width: 2px) {
+        display: none;
+    }
+}
+
+
+
+
+
+.our-animated{
+    @media (max-width: 767px) and (min-width: 411px) {
+        margin-bottom: 56px;
+    }
+}
+
+// Animações Responsivas--------->
+
+
+.animation__one{
+    position: relative;
+    opacity: 0;
+    animation: textonoursection ease-in-out 1.5s forwards;
+    animation-delay: 0.8s;
+}
+
+.animation__two{
+    position: relative;
+    opacity: 0;
+    animation: textonoursection ease-in-out 1.5s forwards;
+    animation-delay: 1.2s;
+}
+
+.animation__three{
+    position: relative;
+    opacity: 0;
+    animation: textonoursection ease-in-out 1.5s forwards;
+    animation-delay: 1.6s;
+}
+
+.animation__four{
+    position: relative;
+    opacity: 0;
+    animation: textonoursection ease-in-out 1.5s forwards;
+    animation-delay: 2s;
+}
+
+.animation__five{
+    position: relative;
+    opacity: 0;
+    animation: textonoursection ease-in-out 1.5s forwards;
+    animation-delay: 2.4s;
+}
